@@ -1,0 +1,8 @@
+build/
+.venv/
+__pycache__/
+.DS_Store
+test-videos/
+LW2_25.pdf
+# Large generated clips stay local; CSV/JSON and contact sheets are published.
+results/**/*.avi

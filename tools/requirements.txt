@@ -1,0 +1,3 @@
+# Optional data generation/evaluation only. The tracker and its tests use C++.
+numpy>=1.24,<3
+opencv-python-headless>=4.4,<6

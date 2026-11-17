@@ -1,0 +1,28 @@
+Start testing: Nov 17 14:58 MSK
+----------------------------------------------------------
+1/1 Testing: tracker_geometry_and_recovery
+1/1 Test: tracker_geometry_and_recovery
+Command: "/Users/nozhegoff/University/ComputerVision/lab2/build/test_tracker"
+Directory: /Users/nozhegoff/University/ComputerVision/lab2/build
+"tracker_geometry_and_recovery" start time: Nov 17 14:58 MSK
+Output:
+----------------------------------------------------------
+PASS: invalid reference
+PASS: known homography
+PASS: scale, rotation and perspective
+PASS: blank and unrelated distractor
+PASS: disappearance and reappearance
+PASS: partial occlusion
+PASS: partly outside frame
+  gradual shrink: 110/110 found, 1 LK, 1 LK detections without independent SIFT detection; worst corner error SIFT=5.40038 px, LK=1.47475 px
+PASS: optical flow during gradual shrink
+8/8 tests passed
+<end of output>
+Test time =  21.16 sec
+----------------------------------------------------------
+Test Passed.
+"tracker_geometry_and_recovery" end time: Nov 17 14:59 MSK
+"tracker_geometry_and_recovery" time elapsed: 00:00:21
+----------------------------------------------------------
+
+End testing: Nov 17 14:59 MSK

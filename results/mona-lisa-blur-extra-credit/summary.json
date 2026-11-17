@@ -1,0 +1,48 @@
+{
+    "input": "test-videos/mona-lisa-blur-extra-credit.avi",
+    "output_video": "results/mona-lisa-blur-extra-credit/annotated.avi",
+    "opencv_version": "5.1.0",
+    "source_fps": 29.969999999999999,
+    "source_reported_frame_count": 558.0,
+    "reported_frame_count_available": 1,
+    "complete_against_reported_count": 1,
+    "width": 640,
+    "height": 360,
+    "decoded_frames": 558,
+    "found_frames": 463,
+    "sift_frames": 257,
+    "flow_frames": 206,
+    "lost_frames": 95,
+    "coverage": 0.82974910394265233,
+    "processing_ms_total": 22382.821527000004,
+    "processing_ms_mean": 40.112583381720434,
+    "processing_fps": 24.929832877722518,
+    "wall_seconds": 23.266632084000001,
+    "wall_fps": 23.98284367008689,
+    "mean_inliers_when_tracked": 57.356371490280779,
+    "mean_median_error_px_when_tracked": 0.36932461075426565,
+    "reference_keypoints": 1224,
+    "stopped_early": 0,
+    "reference_roi": {
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 360
+    },
+    "parameters": {
+        "max_features": 2500,
+        "reference_pyramid_scales": [
+            1.0,
+            0.5,
+            0.25,
+            0.125
+        ],
+        "sift_contrast_threshold": 0.02,
+        "ratio_threshold": 0.75,
+        "ransac_threshold_px": 3.0,
+        "min_matches": 10,
+        "min_inliers": 8,
+        "min_inlier_ratio": 0.40000000000000002,
+        "optical_flow_enabled": 1
+    }
+}

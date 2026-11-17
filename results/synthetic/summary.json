@@ -1,0 +1,48 @@
+{
+    "input": "results/synthetic/input.avi",
+    "output_video": "results/synthetic/annotated.avi",
+    "opencv_version": "5.1.0",
+    "source_fps": 20.0,
+    "source_reported_frame_count": 96.0,
+    "reported_frame_count_available": 1,
+    "complete_against_reported_count": 1,
+    "width": 640,
+    "height": 360,
+    "decoded_frames": 96,
+    "found_frames": 86,
+    "sift_frames": 86,
+    "flow_frames": 0,
+    "lost_frames": 10,
+    "coverage": 0.89583333333333337,
+    "processing_ms_total": 7894.920709,
+    "processing_ms_mean": 82.238757385416662,
+    "processing_fps": 12.159716802546548,
+    "wall_seconds": 8.1041612080000007,
+    "wall_fps": 11.845766333625479,
+    "mean_inliers_when_tracked": 616.94186046511629,
+    "mean_median_error_px_when_tracked": 0.206821295276089,
+    "reference_keypoints": 3855,
+    "stopped_early": 0,
+    "reference_roi": {
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 360
+    },
+    "parameters": {
+        "max_features": 2500,
+        "reference_pyramid_scales": [
+            1.0,
+            0.5,
+            0.25,
+            0.125
+        ],
+        "sift_contrast_threshold": 0.02,
+        "ratio_threshold": 0.75,
+        "ransac_threshold_px": 3.0,
+        "min_matches": 10,
+        "min_inliers": 8,
+        "min_inlier_ratio": 0.40000000000000002,
+        "optical_flow_enabled": 1
+    }
+}

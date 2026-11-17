@@ -1,0 +1,28 @@
+{
+  "description": "Deterministic synthetic planar target; not a self-recorded real video.",
+  "seed": 17,
+  "frames": 96,
+  "fps": 20.0,
+  "size": [
+    640,
+    360
+  ],
+  "visible_frames": 86,
+  "absent_frames_inclusive": [
+    40,
+    49
+  ],
+  "first_reappearance_frame": 50,
+  "blurred_frames_inclusive": [
+    24,
+    31
+  ],
+  "occluded_frames_inclusive": [
+    64,
+    71
+  ],
+  "corner_order": "top-left, top-right, bottom-right, bottom-left in reference coordinates",
+  "coordinates": "pixel coordinates; first frame reference spans (0,0) through (639,359)",
+  "ground_truth": "ground_truth.csv; invisible frame corners are empty",
+  "codec": "MJPG (lossy); geometric ground truth precedes video encoding"
+}

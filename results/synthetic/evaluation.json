@@ -1,0 +1,20 @@
+{
+  "scope": "Synthetic benchmark only; this is not a self-recorded real video.",
+  "frames": 96,
+  "visible_frames": 86,
+  "detected_visible_frames": 86,
+  "recall_visible": 1.0,
+  "absent_frames": 10,
+  "false_positives_absent": 0,
+  "mean_corner_error_px_detected": 0.1512089831711248,
+  "max_mean_corner_error_px_detected": 0.29157766699790955,
+  "mean_iou_visible_including_misses": 0.9983201439918673,
+  "reappearance_frames": [
+    50
+  ],
+  "detected_on_first_reappearance_frames": [
+    true
+  ],
+  "ground_truth_path": "results/synthetic/ground_truth.csv",
+  "tracking_path": "results/synthetic/tracking.csv"
+}
